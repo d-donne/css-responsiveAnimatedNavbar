@@ -48,10 +48,11 @@ nav:hover .logo-text {
   color: var(--text-secondary);
 }
 
-.logo-icon {
+
+nav .logo-icon {
   display: block;
-  transform: rotate(0deg);
-  transition: transform 500ms;
+  /* transform: rotate(0deg); */
+  transition: transform 400ms ease;
 }
 
 nav:hover .logo-icon {
